@@ -1,5 +1,6 @@
-print("How old are you? ")
-current_age = int(input())
+
+age = input("How old are you? ")
+current_age = int(age)
 
 future_age = current_age + 27
 
