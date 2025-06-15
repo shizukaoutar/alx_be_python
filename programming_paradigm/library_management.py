@@ -3,7 +3,7 @@ from pickle import FALSE, TRUE
 
 class Book:
 
-    def __init__(self, title, author, _is_checked_out=FALSE):
+    def __init__(self, title, author, _is_checked_out=False):
         self.title = title
         self.author = author
         self._is_checked_out = _is_checked_out
@@ -20,7 +20,7 @@ class Book:
 
 class Library: 
     def __init__(self):
-        self._books = _books
+        self._books = []
 
     def add_book(self, book):
         self._books.append(book)
